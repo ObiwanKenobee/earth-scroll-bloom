@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sacred': ['Cinzel', 'serif'],
+				'body': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Bioregional Sacred Colors
+				forest: {
+					deep: 'hsl(var(--forest-deep))',
+					sacred: 'hsl(var(--forest-sacred))',
+					gentle: 'hsl(var(--forest-gentle))',
+					whisper: 'hsl(var(--forest-whisper))'
+				},
+				river: {
+					deep: 'hsl(var(--river-deep))',
+					sacred: 'hsl(var(--river-sacred))',
+					gentle: 'hsl(var(--river-gentle))',
+					whisper: 'hsl(var(--river-whisper))'
+				},
+				clay: {
+					deep: 'hsl(var(--clay-deep))',
+					sacred: 'hsl(var(--clay-sacred))',
+					gentle: 'hsl(var(--clay-gentle))',
+					whisper: 'hsl(var(--clay-whisper))'
+				},
+				star: {
+					deep: 'hsl(var(--star-deep))',
+					sacred: 'hsl(var(--star-sacred))',
+					gentle: 'hsl(var(--star-gentle))',
+					whisper: 'hsl(var(--star-whisper))'
 				}
 			},
 			borderRadius: {
